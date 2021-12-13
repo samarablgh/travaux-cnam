@@ -1,0 +1,94 @@
+body {
+    background-color: #fbf7f0;
+    background: no-repeat;
+    background-attachment: fixed;
+}
+
+nav {
+    display: flex;
+    width: flex;
+    height: 100px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin: 30px;
+    font: Open Sans;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav a {
+    border-style: none;
+    border-right: #9d9d9c 0.5px solid;
+    padding-left: 75px;
+    padding-right: 75px;
+    text-decoration: none;
+    color: #9d9d9c;
+}
+
+nav a:hover,
+.navbar .selected {
+    color: black;
+}
+
+.home-article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 1;
+    font: Open Sans;
+    padding: 100px;
+}
+
+h1 {
+    font-size: 90px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.deadpool {
+    order: 2;
+    height: 300px solid;
+    width: 340px solid;
+    background-color: #b05a58;
+    border-style: none;
+    border-radius: 5%;
+    margin-left: 100px;
+}
+
+.txt {
+    display: flex;
+    flex-direction: column;
+}
+
+.bouton {
+    display: flex;
+    padding: 10px 20px;
+    width: 150px;
+    text-align: center;
+    background: black;
+    border-style: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "Betterly";
+    src: url("polices/OpenSans.ttf");
+}
